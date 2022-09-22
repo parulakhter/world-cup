@@ -7,14 +7,23 @@
 /* Common Style */
 body {
     font-family: 'Poppins', sans-serif;
+    line-height: 1.5em;
 }
 
 /* Header */
 .container {
-    width: 1321px;
+    width: 85%;
     margin: 50px auto;
+}
+
+.top-blog {
     border-radius: 30px;
     background-color: #0F0F53;
+}
+
+.container:hover .link-btn {
+    background-color: #FFD301;
+    font-weight: 700;
 }
 
 .content {
@@ -30,6 +39,10 @@ body {
 h1 {
     font-size: 4em;
     line-height: 1.2em;
+    color: #FFD301;
+}
+
+.container:hover h1 {
     color: whitesmoke;
 }
 
@@ -39,14 +52,17 @@ h1 {
     margin-bottom: 40px;
 }
 
-.link-btn {
-    color: #0F0F53;
+.btn {
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
+}
+
+.link-btn {
+    color: #0F0F53;
     padding: 16px 25px;
     border-radius: 5px;
-    background-color: #FFD301;
+    background-color: whitesmoke;
 }
 
 .btn-icon {
@@ -58,4 +74,81 @@ h1 {
     width: 100%;
     margin-top: 33px;
     margin-left: 50px;
+}
+
+/* Blog Area */
+.flex {
+    display: flex;
+}
+
+.fixed-width {
+    width: 312px;
+    height: 312px;
+    padding: 30;
+    border-radius: 10px;
+    margin-top: 85px;
+    margin-right: 25px;
+    background-color: #0F0F53;
+}
+
+.fixed-btn {
+    width: 252px;
+    height: 64px;
+    padding: 17px 39px;
+    margin: 30px 30px 0 30px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+#highlighted {
+    background-color: #FFD301;
+}
+
+.blog {
+    margin-top: 85px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+.highlights {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.highlights img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.blog-content {
+    margin: 20px;
+}
+
+.live-btn {
+    font-weight: 600;
+    font-size: 16px;
+    background-color: white;
+    padding: 4px 16px;
+    border-radius: 5px;
+}
+
+.blog-content h3 {
+    margin-top: 15px;
+}
+
+.blog-info {
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.blog-info p {
+    margin-left: 10px;
+    font-size: 16px;
+    color: gray;
 }
