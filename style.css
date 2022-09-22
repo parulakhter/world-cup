@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common Style */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.container {
+    width: 1321px;
+    margin: 50px auto;
+    border-radius: 30px;
+    background-color: #0F0F53;
+}
+
+.content {
+    display: flex;
+    padding: 0 100px;
+    align-items: center;
+}
+
+.half-width {
+    width: 50%;
+}
+
+h1 {
+    font-size: 4em;
+    line-height: 1.2em;
+    color: whitesmoke;
+}
+
+.top-blog {
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.link-btn {
+    color: #0F0F53;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 16px 25px;
+    border-radius: 5px;
+    background-color: #FFD301;
+}
+
+.btn-icon {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.half-width img {
+    width: 100%;
+    margin-top: 33px;
+    margin-left: 50px;
+}
