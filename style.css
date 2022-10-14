@@ -176,7 +176,27 @@ hr {
     color: gray;
 }
 
-/* Footer & Navigation Area */
+/* match.index.html */
+.Upcoming-match {
+    padding: 50px 15px;
+}
+
+.Upcoming-match img {
+    width: 80px;
+    border-radius: 0%;
+}
+
+.Upcoming-match .flex {
+    align-items: center;
+    justify-content: center;
+}
+
+.Upcoming-match .flex h5 {
+    padding: 0 10px;
+}
+
+/* Footer & 
+Navigation Area */
 .footer-bg {
     margin-top: 130px;
     background-color: #161616;
