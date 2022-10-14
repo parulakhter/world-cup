@@ -122,7 +122,7 @@ hr {
     border-radius: 10px;
 }
 
-#highlighted {
+.highlighted {
     background-color: #FFD301;
 }
 
